@@ -9,6 +9,9 @@ import { Block } from "./components";
 
 // import all used images
 const images = [
+  require("./assets/images/delivery.png"),
+  require("./assets/images/map.png"),
+  require("./assets/images/volunteer.png"),
   require("./assets/icons/back.png"),
   require("./assets/icons/plants.png"),
   require("./assets/icons/seeds.png"),
@@ -25,9 +28,9 @@ const images = [
   require("./assets/images/explore_4.png"),
   require("./assets/images/explore_5.png"),
   require("./assets/images/explore_6.png"),
-  require("./assets/images/illustration_1.png"),
-  require("./assets/images/illustration_2.png"),
-  require("./assets/images/illustration_3.png"),
+  // require("./assets/images/illustration_1.png"),
+  // require("./assets/images/illustration_2.png"),
+  // require("./assets/images/illustration_3.png"),
   require("./assets/images/avatar.png")
 ];
 

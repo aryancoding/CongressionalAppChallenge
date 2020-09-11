@@ -152,11 +152,11 @@ class Welcome extends Component {
             <Block>
                 <Block center bottom flex={0.4}>
                     <Text h1 center bold>
-                        Your Home.
-                        <Text h1 primary> Greener.</Text>
+                        Your Life.
+                        <Text h1 primary> Simpler.</Text>
                     </Text>
                     <Text h3 gray2 style={{ marginTop: theme.sizes.padding / 2}}>
-                        Enjoy the experience.
+                        Enjoy The Service.
                     </Text>
                 </Block>
                 <Block center middle>
@@ -182,9 +182,9 @@ class Welcome extends Component {
 
 Welcome.defaultProps = {
     illustrations: [
-        { id: 1, source: require('../assets/images/illustration_1.png') },
-        { id: 2, source: require('../assets/images/illustration_2.png') },
-        { id: 3, source: require('../assets/images/illustration_3.png') },
+        { id: 1, source: require('../assets/images/map.png') },
+        { id: 2, source: require('../assets/images/volunteer.png') },
+        { id: 3, source: require('../assets/images/delivery.png') },
     ],
 };
 

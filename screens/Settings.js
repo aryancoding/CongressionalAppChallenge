@@ -50,7 +50,7 @@ class Settings extends Component {
     const { profile, editing } = this.state;
 
     return (
-      <Block>
+      <Block style={{ paddingVertical: 25 }}>
         <Block flex={false} row center space="between" style={styles.header}>
           <Text h1 bold>
             Settings

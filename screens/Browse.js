@@ -1,3 +1,4 @@
+/*
 import React, { Component } from "react";
 import {
   Dimensions,
@@ -54,7 +55,7 @@ class Browse extends Component {
     const tabs = ["Products", "Inspirations", "Shop"];
 
     return (
-      <Block>
+      <Block style={{ paddingVertical: 25 }}>
         <Block flex={false} row center space="between" style={styles.header}>
           <Text h1 bold>
             Browse
@@ -143,3 +144,36 @@ const styles = StyleSheet.create({
     maxHeight: (width - theme.sizes.padding * 2.4 - theme.sizes.base) / 2
   }
 });
+*/
+
+import { theme } from '../constants';
+import React, { Component } from 'react'
+import { StyleSheet } from 'react-native';
+
+import { Button, Block, Text } from '../components';
+
+export default class Browse extends Component {
+  render() {
+    const { navigation } = this.props;
+    return (
+      <Block padding={[100, theme.sizes.base * 2]}>
+        <Text h1 bold>Volunteer</Text>
+        <Text style={{ flex: 1 }}>
+        </Text>
+        <Button gradient onPress={() => navigation.navigate("Explore")}>
+              <Text
+                bold
+                white
+                center
+              >
+                Map
+              </Text>
+            </Button>
+      </Block>
+    )
+  }
+}
+
+const styles = StyleSheet.create({
+
+})

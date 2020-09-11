@@ -9,7 +9,7 @@ import SignUp from "../screens/SignUp";
 import Forgot from "../screens/Forgot";
 import Explore from "../screens/Explore";
 import Browse from "../screens/Browse";
-import Product from "../screens/Product";
+// import Product from "../screens/Product";
 import Settings from "../screens/Settings";
 
 import { theme } from "../constants";
@@ -22,7 +22,7 @@ const screens = createStackNavigator(
     Forgot,
     Explore,
     Browse,
-    Product,
+    // Product,
     Settings
   },
   {
@@ -43,12 +43,12 @@ const screens = createStackNavigator(
         backgroundColor: "transparent",
         alignItems: "center",
         marginLeft: theme.sizes.base * 2,
-        // paddingRight: theme.sizes.base
+        paddingRight: theme.sizes.base
       },
       headerRightContainerStyle: {
         backgroundColor: "transparent",
         alignItems: "center",
-        // paddingRight: theme.sizes.base
+        paddingRight: theme.sizes.base
       }
     }
   }

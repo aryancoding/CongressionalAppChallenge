@@ -37,7 +37,7 @@ export default class SignUp extends Component {
     if (!errors.length) {
       Alert.alert(
         "Success!",
-        "Your account has been created",
+        "Your Account Has Been Created!",
         [
           {
             text: "Continue",
@@ -58,7 +58,7 @@ export default class SignUp extends Component {
 
     return (
       <KeyboardAvoidingView style={styles.signup} behavior="padding">
-        <Block padding={[0, theme.sizes.base * 2]}>
+        <Block padding={[100, theme.sizes.base * 2]}>
           <Text h1 bold>
             Sign Up
           </Text>

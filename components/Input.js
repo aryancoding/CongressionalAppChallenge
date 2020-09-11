@@ -41,8 +41,8 @@ export default class Input extends Component {
           rightLabel
         ) : (
           <Icon.Ionicons
-            style={{ paddingRight: 7 }}
             color={theme.colors.gray}
+            style={{ paddingRight: 7 }}
             size={theme.sizes.font * 1.35}
             name={!toggleSecure ? "md-eye" : "md-eye-off"}
           />

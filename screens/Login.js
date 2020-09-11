@@ -50,7 +50,7 @@ export default class Login extends Component {
 
     return (
       <KeyboardAvoidingView style={styles.login} behavior="padding">
-        <Block padding={[150, theme.sizes.base * 2]}>
+        <Block padding={[100, theme.sizes.base * 2]}>
           <Text h1 bold>
             Sign In
           </Text>
