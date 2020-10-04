@@ -275,3 +275,15 @@ const styles = StyleSheet.create({
     bottom:0,
   },
 });
+
+
+/*<Text style={styles.borderPreviousOrders}>{`
+          Dummy Order:
+          Status: Complete
+          Date Created: 10/03/20
+          Order Info: Tomatoes, Onions, and Pasta from Walmart
+          Customer Name: Sarah
+          Credentials:
+              email: sarahj18@gmail.com
+              phone number: (787) 284-1970
+        `}</Text>*/
