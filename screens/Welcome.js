@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Animated, Dimensions, Image, FlatList, Modal, StyleSheet, ScrollView } from 'react-native';
 
-import { Button, Block, Text } from '../components';
+// import { Button, Block, Text } from '../components';
 import { theme } from '../constants';
 
 const { width, height } = Dimensions.get('window');
@@ -149,11 +149,11 @@ class Welcome extends Component {
         const { navigation } = this.props;
 
         return(
-            <Block>
+            <Block style = {{ backgroundColor: "#f0ffff"}}>
                 <Block center bottom flex={0.4}>
                     <Text h1 center bold>
-                        Your Life.
-                        <Text h1 primary> Simpler.</Text>
+                        V Care.
+                        <Text h1 style={{ color: "#008b8b" }}> 4 U.</Text>
                     </Text>
                     <Text h3 gray2 style={{ marginTop: theme.sizes.padding / 2}}>
                         Enjoy The Service.
@@ -164,8 +164,8 @@ class Welcome extends Component {
                     {this.renderSteps()}
                 </Block>
                 <Block middle flex={0.5} margin={[0, theme.sizes.padding * 2]}>
-                    <Button gradient onPress={() => navigation.navigate('Login')}>
-                        <Text center semibold white>Sign In</Text>
+                    <Button style={{ backgroundColor: "#008b8b" }} onPress={() => navigation.navigate('Login')}>
+                        <Text center semibold white>Login</Text>
                     </Button>
                     <Button shadow onPress={() => navigation.navigate('SignUp')}>
                         <Text center semibold>Sign Up</Text>  
